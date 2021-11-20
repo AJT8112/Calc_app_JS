@@ -1,0 +1,7 @@
+header{
+    background-color: rgb(101, 180, 154);
+}
+h1{
+    font-weight: bold;
+    color: grey;
+}

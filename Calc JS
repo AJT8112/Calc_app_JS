@@ -1,0 +1,24 @@
+function calculator(num1, num2, operator){
+    switch(operator){
+        case '+':
+            sum = num1 + num2;
+            break;
+        case '-':
+            sum = num1 - num2;
+            break;
+        case '*':
+            sum = num1 * num2;
+            break;
+        case '/':
+            sum = num1 / num2;
+            break;
+        default:
+            console.log("Operator Is Not Recognised")
+            return;
+    }
+    return sum;
+}
+calculator(1, 2, '+');
+calculator(1, 2, "/");
+calculator(1, 2, '*');
+calculator(1, 2, "-");
