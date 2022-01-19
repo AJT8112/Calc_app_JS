@@ -6,3 +6,36 @@ h1{
     color: black;
     text-align: center;
 }
+
+.display{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 70%;
+    margin-left: 15%;
+    border-style: solid;
+}
+
+.numberPadWrap{
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.numberPad{
+    background-color:red;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px, 0px, 0px, -10px;
+}
+
+button{
+    background-color: lightblue;
+    display: inline-block;
+    margin: 10px, 0px, 0px, 10px;
+    flex-grow: 1;
+    height: 100px;
+    width: 25%;
+}
+.funcButton{
+    background-color: lightcoral;
+}
