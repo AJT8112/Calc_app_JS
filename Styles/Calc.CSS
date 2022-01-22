@@ -1,6 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+   
 header{
     background-color: rgb(101, 180, 154);
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 h1{
     font-weight: bold;
     color: black;
@@ -8,11 +17,13 @@ h1{
 }
 
 .display{
-    background-color: darkgrey;
-    display: inline-block;
+    background-color: lightgrey;
     width: 70%;
+    margin-top: -40px;
+    margin-bottom: -38px;
     margin-left: 15%;
-    border-style: solid;
+    text-align: center;
+    font-size: 28px;    
 }
 
 .numberPadWrap{
@@ -35,7 +46,13 @@ button{
     flex-grow: 1;
     height: 100px;
     width: 25%;
+    font-size: 20px;
 }
-.funcButton{
+
+.dataOp{
+    background-color: lightcoral;
+}
+
+.dataClear{
     background-color: lightcoral;
 }
